@@ -1,0 +1,31 @@
+.student-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.student-card:hover {
+    transform: scale(1.02);
+}
+
+.student-card img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.student-card p {
+    margin: 0.5rem 0;
+}
+
+.student-card label {
+    display: flex;
+    align-items: center;
+}
+
+.student-card input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
